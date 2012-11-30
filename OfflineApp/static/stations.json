@@ -1,0 +1,189 @@
+{"stationInfo":[
+    {
+        "id":"jdc:1007",
+        "shortName":"Jaman",
+        "name":"Dent de Jaman",
+        "dataValidity":"3600",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.4416",
+        "wgs84Longitude":"6.97622",
+        "altitude":"1745",
+        "maintenanceStatus":"green"
+    },
+    {
+        "id":"jdc:1000",
+        "shortName":"Yverdon",
+        "name":"Yverdon-les-Bains",
+        "dataValidity":"3600",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.7836",
+        "wgs84Longitude":"6.62257",
+        "altitude":"435",
+        "maintenanceStatus":"red"
+    },
+    {
+        "id":"jdc:1008",
+        "shortName":"Salève",
+        "name":"Salève",
+        "dataValidity":"3600",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.1282",
+        "wgs84Longitude":"6.17294",
+        "altitude":"1261",
+        "maintenanceStatus":"red"
+    },
+    {
+        "id":"jdc:1001",
+        "shortName":"Mauborget",
+        "name":"Mauborget",
+        "dataValidity":"3600",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.8543",
+        "wgs84Longitude":"6.61195",
+        "altitude":"1180",
+        "maintenanceStatus":"green"
+    },
+    {
+        "id":"jdc:1003",
+        "shortName":"Zinal",
+        "name":"Zinal",
+        "dataValidity":"3600",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.1461",
+        "wgs84Longitude":"7.58606",
+        "altitude":"2825",
+        "maintenanceStatus":"green"
+    },
+    {
+        "id":"jdc:1009",
+        "shortName":"Chalais",
+        "name":"Chalais",
+        "dataValidity":"3600",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.2731",
+        "wgs84Longitude":"7.51512",
+        "altitude":"500",
+        "maintenanceStatus":"green"
+    },
+    {
+        "id":"jdc:1002",
+        "shortName":"Le Suchet",
+        "name":"Le Suchet",
+        "dataValidity":"3600",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.7724",
+        "wgs84Longitude":"6.4662",
+        "altitude":"1588",
+        "maintenanceStatus":"red"
+    },
+    {
+        "id":"jdc:1006",
+        "shortName":"Les Diablerets",
+        "name":"Les Diablerets",
+        "dataValidity":"3600",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.3267",
+        "wgs84Longitude":"7.20438",
+        "altitude":"2940",
+        "maintenanceStatus":"red"
+    },
+    {
+        "id":"windline:4100",
+        "shortName":"Alp Scheidegg",
+        "name":"Station des DCZO, Wald ZH",
+        "dataValidity":"0",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"47.30361111111111",
+        "wgs84Longitude":"8.943333333333333",
+        "altitude":"1200",
+        "maintenanceStatus":"green"
+    },
+    {
+        "id":"windline:4096",
+        "shortName":"Wetterstation Niederhünigen",
+        "name":"Allmend, Niederhünigen, BE",
+        "dataValidity":"0",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.86888888888889",
+        "wgs84Longitude":"7.643888888888888",
+        "altitude":"875",
+        "maintenanceStatus":"orange"
+    },
+    {
+        "id":"windline:4101",
+        "shortName":"Wiriehorn",
+        "name":"Wiriehorn, Diemtigtal, BE",
+        "dataValidity":"0",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.59777777777778",
+        "wgs84Longitude":"7.537222222222222",
+        "altitude":"1525",
+        "maintenanceStatus":"green"
+    },
+    {
+        "id":"windline:4102",
+        "shortName":"Demo Endesa",
+        "name":"Demo Station Endesa Münsingen",
+        "dataValidity":"0",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.867222222222225",
+        "wgs84Longitude":"7.562777777777778",
+        "altitude":"530",
+        "maintenanceStatus":"red"
+    },
+    {
+        "id":"windline:4103",
+        "shortName":"Dev Station",
+        "name":"Webcam only",
+        "dataValidity":"0",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.86888888888889",
+        "wgs84Longitude":"7.643888888888888",
+        "altitude":"835",
+        "maintenanceStatus":"red"
+    },
+    {
+        "id":"windline:4104",
+        "shortName":"Grindelwald First",
+        "name":"First, Grindelwald, BE",
+        "dataValidity":"0",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"46.657777777777774",
+        "wgs84Longitude":"8.055000000000001",
+        "altitude":"2167",
+        "maintenanceStatus":"green"
+    },
+    {
+        "id":"windline:4105",
+        "shortName":"Schwängimatt",
+        "name":"Laupersdorf, Balsthal, SO",
+        "dataValidity":"0",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"47.29111111111111",
+        "wgs84Longitude":"7.6775",
+        "altitude":"1060",
+        "maintenanceStatus":"green"
+    },
+    {
+        "id":"windline:4106",
+        "shortName":"Bergalingen-Heue",
+        "name":"Wehr, Baden-Würtenberg, DE",
+        "dataValidity":"0",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"47.61944444444445",
+        "wgs84Longitude":"7.939166666666667",
+        "altitude":"845",
+        "maintenanceStatus":"green"
+    },
+    {
+        "id":"windline:4107",
+        "shortName":"Corgemont",
+        "name":"Corgemont, Biel, BE",
+        "dataValidity":"0",
+        "stationLocationType":"takeoff",
+        "wgs84Latitude":"47.17305555555555",
+        "wgs84Longitude":"7.1369444444444445",
+        "altitude":"1130",
+        "maintenanceStatus":"red"
+    }
+]}

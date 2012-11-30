@@ -1,0 +1,40 @@
+html {
+    background-color: black;
+}
+
+body {
+    color: #d3d3d3;
+}
+
+.station {
+    background-color: black;
+    border-bottom: 1px solid #d3d3d3;
+    font-size: 1.4em;
+    padding-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+.stationStatus {
+    float: left;
+    display: list-item;
+    margin-right: 0.3em;
+}
+
+.stationName {
+    float: left;
+    display: inline;
+    /* outline: 1px solid red; */
+    /* text-overflow: ellipsis; */
+}
+
+.stationHeight {
+    float: right;
+}
+
+.stationClear {
+    clear: both;
+}
+
+.stationDetail {
+
+}

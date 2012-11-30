@@ -1,0 +1,37 @@
+{"stationId":"1007", "lastUpdate":"2012-11-28T21:00:00+0100", "expirationDate":"2012-11-29T09:00:00+0100", "status":"green", "windAverage":"0.0", "windMax":"0.0", "windTrend":"0", "windDirectionChart":{
+    "duration":"3600",
+    "serie":{
+        "name":"windDirection",
+        "points":[
+            {
+                "date":"1354129200000",
+                "value":"0.0"
+            },
+            {
+                "date":"1354129800000",
+                "value":"0.0"
+            },
+            {
+                "date":"1354130400000",
+                "value":"0.0"
+            },
+            {
+                "date":"1354131000000",
+                "value":"0.0"
+            },
+            {
+                "date":"1354131600000",
+                "value":"0.0"
+            },
+            {
+                "date":"1354132200000",
+                "value":"0.0"
+            },
+            {
+                "date":"1354132800000",
+                "value":"0.0"
+            }
+        ]
+    }
+}, "windHistoryMin":"0.0", "windHistoryAverage":"0.0", "windHistoryMax":"0.0", "airTemperature":"-4.5", "airHumidity":"74.1"}
+

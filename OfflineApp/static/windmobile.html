@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="/static/global.css" />
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+    <script type="text/javascript" src="/static/js/mustache.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            var json = $.getJSON('/static/stations.json')
+            var template = $.get('/static/stations.tpl')
+            $.when(json, template).done(function () {
+                var t = template.responseText
+                var j = json.responseText
+                console.log(t)
+                console.log(j)
+                var html = Mustache.to_html(t, $.parseJSON(j));
+                $('#stations').html(html);
+            })
+        })
+
+        function showDetail(name, id) {
+            // TODO regarder l'extension hash de deck.js pour voir comment reloader en fonction du pound
+            var json = $.getJSON('/static/station.json')
+            var template = $.get('/static/station.tpl')
+            $.when(json, template).done(function () {
+                var t = template.responseText
+                var j = json.responseText
+                console.log(t)
+                console.log(j)
+                var html = Mustache.to_html(t, $.parseJSON(j));
+                $('#stations').hide();
+                $('#stationDetail').html(html);
+            })
+        }
+    </script>
+
+    <title>WindMobile</title>
+</head>
+<body>
+    <div id="stations">
+        </div>
+    <div id="stationsMap">
+        </div>
+    <div id="stationDetail">
+    </div>
+</body>
+</html>

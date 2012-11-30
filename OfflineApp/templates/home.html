@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" manifest="/static/cache.manifest">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="apple-touch-icon-precomposed" href="static/apple-touch-icon-precomposed.png" />
+    <link rel="stylesheet" href="/static/global.css" />
+    <script type="text/javascript">
+        window.applicationCache.addEventListener('updateready', function(){
+            if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+                // Browser downloaded a new app cache.
+                // Swap it in and reload the page to get the new hotness.
+                window.applicationCache.swapCache();
+                if (confirm('A new version of this site is available. Load it?')) {
+                    window.location.reload();
+                }
+            } else {
+                console.log("nothing changed");
+            }
+        }, false);
+    </script>
+    <title>Title</title>
+</head>
+<body>
+<p>This is my paragraph</p>
+</body>
+</html>
