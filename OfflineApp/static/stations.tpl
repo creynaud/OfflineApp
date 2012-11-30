@@ -1,5 +1,5 @@
 {{#stationInfo}}
-    <div class="station" onClick="showDetail('{{shortName}}', '{{id}}')">
+    <div class="station" onClick="showStationDetail('{{shortName}}', '{{id}}')">
         <div class="stationStatus" style="color: {{maintenanceStatus}}">
             o
         </div>
