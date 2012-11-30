@@ -9,15 +9,15 @@
     <script type="text/javascript" src="/static/controller.js"></script>
     <script type="text/javascript">
         $(function () {
-            showStations();
+            startController();
         })
     </script>
 
     <title>WindMobile</title>
 </head>
 <body>
-    <div id="stations"></div>
-    <div id="stationsMap"></div>
-    <div id="stationDetail"></div>
+    <div id="stations" class="viewTransition view"></div>
+    <div id="stationsMap" class="viewTransition view"></div>
+    <div id="stationDetail" class="viewTransition view"></div>
 </body>
 </html>

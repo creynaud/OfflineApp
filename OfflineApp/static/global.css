@@ -1,3 +1,5 @@
+/* TODO use SCSS */
+
 html {
     background-color: black;
 }
@@ -7,7 +9,6 @@ body {
 }
 
 .station {
-    background-color: black;
     border-bottom: 1px solid #d3d3d3;
     font-size: 1.4em;
     padding-bottom: 0.3em;
@@ -36,5 +37,26 @@ body {
 }
 
 .stationDetail {
-
+	font-size: 1.4em;
+	padding-bottom: 0.3em;
+	margin-top: 0.3em;
 }
+
+.stationDetailHeader,.stationWindCurrent,.stationWindHistory,.stationAir{
+	border-bottom: 1px solid #d3d3d3;
+	padding-bottom: 0.3em;
+	margin-top: 0.3em;
+}
+
+/* .viewTransition {
+	transition: opacity 1500ms ease-in-out 0ms;
+	opacity:0;
+}
+
+.view {
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+} */
